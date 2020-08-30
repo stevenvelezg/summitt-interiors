@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Rockwell"
+}
+.navbar1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: #f1f3f8;
+  z-index: 1;
+  height: 8%;
+  overflow: hidden;
+}
+.navbar1 a {
+  float: right;
+  font-size: 16px;
+  color: #8d93ab;
+  text-align: center;
+  padding: 14px 40px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.navbar1 a:hover {
+  color: #393b44 !important;
+  text-decoration: none;
+}
+.img1 {
+    /* The image used */
+    background-image: url("../img/gmc.jpg");
+
+    /* Full height */
+    height: 95%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-window {
+  height: 95%;
+}
+.img2 {
+    /* The image used */
+    background-color: #8d93ab;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border1 {
+  color: #393b44;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+a {
+  text-decoration: none;
+}
+.summary {
+  background-color: #8d93ab;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.summary .text {
+  width: 80%;
+  margin: auto;
+}
+.summary h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+}
+.summary p {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+.site-inner {
+  padding-top: 120px;
+  background-color: #393b44;
+  height: 100%;
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.content {
+  padding: 4rem;
+  background-color: #8d93ab;
+  height: 100%;
+}
