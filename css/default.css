@@ -95,7 +95,7 @@ a {
   padding-bottom: 20px;
 }
 .site-inner {
-  padding-top: 120px;
+  padding-top: 48px;
   background-color: #393b44;
   height: 100%;
 }
@@ -106,6 +106,7 @@ a {
 .content {
   padding: 3rem;
   background-color: #8d93ab;
+  margin-bottom: 48px;
 }
 .title{
   padding-top: 45px;
