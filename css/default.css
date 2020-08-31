@@ -1,7 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: "Rockwell"
+    font-family: "Rockwell";
+}
+.non-home {
+  background-color: #393b44;
 }
 .navbar1 {
   position: fixed;
@@ -101,7 +104,9 @@ a {
   max-width: 1140px;
 }
 .content {
-  padding: 4rem;
+  padding: 3rem;
   background-color: #8d93ab;
-  height: 100%;
+}
+.title{
+  padding-top: 45px;
 }
